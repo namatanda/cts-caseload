@@ -1,0 +1,19 @@
+test:
+  imports:
+    - cts_caseload
+  commands:
+    - pip check
+  requires:
+    - pip
+
+about:
+  home: https://github.com/namatanda/cts-caseload
+  summary: A porgram to analyze cts caseload data
+  description: |
+    A porgram to analyze cts caseload data
+  license: NIST-PD
+  license_file: LICENSE
+
+extra:
+  recipe-maintainers:
+    - namatanda
